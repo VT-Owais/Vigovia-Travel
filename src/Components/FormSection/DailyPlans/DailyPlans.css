@@ -1,0 +1,82 @@
+.daily-plan {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.daily-plan h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.day-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.day-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.day-header h3 {
+  color: #444;
+  margin: 0;
+}
+
+.delete-day-btn {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.delete-day-btn:hover {
+  background: #c82333;
+}
+
+.time-slot {
+  margin-bottom: 15px;
+}
+
+.time-slot label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+  font-weight: bold;
+}
+
+.time-slot textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  resize: vertical;
+}
+
+.time-slot textarea:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.add-day-btn {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-day-btn:hover {
+  background: #218838;
+}
