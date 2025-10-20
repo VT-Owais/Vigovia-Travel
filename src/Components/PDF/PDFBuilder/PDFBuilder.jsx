@@ -1,6 +1,6 @@
 import React from 'react';
 import './PDFBuilder.css';
-import { generatePDF } from '../../utils/pdfGenerator';
+import { generatePDF } from '../../Utils/pdfGenerator';
 import { useItineraryStore } from '../../Hooks/useItineraryStore';
 
 const PDFBuilder = () => {
